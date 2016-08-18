@@ -496,6 +496,7 @@
 				60570E7B1D33704400ED6886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60570E7C1D33704400ED6886 /* Build configuration list for PBXNativeTarget "iOS_youbiSystemTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				60570E7E1D33704400ED6886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60570E7F1D33704400ED6886 /* Build configuration list for PBXNativeTarget "iOS_youbiSystemUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +514,7 @@
 				60570E811D33704400ED6886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
