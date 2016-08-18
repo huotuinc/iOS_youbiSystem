@@ -19,6 +19,6 @@
 /**
  *  通过字典计算计算微信支付asign值
  */
-+ (NSString *)asignByWeiXinPayMutableDictionary:(NSMutableDictionary *)dict;
+//+ (NSString *)asignByWeiXinPayMutableDictionary:(NSMutableDictionary *)dict;
 
 @end
