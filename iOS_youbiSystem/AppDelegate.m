@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "UserLoginTool.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +18,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self initApp];
+    
     return YES;
 }
 
@@ -40,6 +44,17 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark 
+
+- (void)initApp {
+    NSString *str = @"http://192.168.1.210:8002/api.ashx";
+    [UserLoginTool loginRequestPostWithFile:str action:@"init" parame:nil success:^(id json) {
+        LWLog(@"success:%@",json);
+    } failure:^(NSError *error) {
+        LWLog(@"error:%@",error);
+    } withFileKey:nil];
 }
 
 @end

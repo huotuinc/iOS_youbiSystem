@@ -1,0 +1,57 @@
+//
+//  PrefixHeader.pch
+//  iOS_youbiSystem
+//
+//  Created by 刘琛 on 16/7/11.
+//  Copyright © 2016年 cyjd. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <AFNetworking.h>
+#import "MD5Encryption.h"
+
+
+/**iOS 高和宽*/
+#define KScreenHeight  [UIScreen mainScreen].bounds.size.height
+
+#define KScreenWidth  [UIScreen mainScreen].bounds.size.width
+
+
+//服务器正式地址
+#define MKMainUrl @""
+
+
+/**时间*/
+#define apptimesSince1970 [NSString stringWithFormat:@"%.0f",([[[NSDate alloc] init] timeIntervalSince1970]*1000)]
+
+//网络请求的固定参数
+#define HTYMRSCREAT @"21ff3104eb7a7bf3f2b663b8ab18eebe"  //火图安全网络请求安全协议
+
+/**平台*/
+#define OPERATION_parame @"KuaiDB2016AP"
+
+/**应用版本号*/
+#define AppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+/**设备唯一号*/
+#define  DeviceNo ([[UIDevice currentDevice].identifierForVendor UUIDString])
+
+
+/**判断iOS版本*/
+//判断ios7
+#define IsIos7 ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 7.0)
+
+#define IsIos8 ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 8.0)
+
+/**APP token */
+#define AppToken @"AppToken"
+
+#ifdef DEBUG
+#define LWLog(...) NSLog(__VA_ARGS__)
+#else
+#define LWLog(...)
+#endif
+
+#endif /* PrefixHeader_pch */
