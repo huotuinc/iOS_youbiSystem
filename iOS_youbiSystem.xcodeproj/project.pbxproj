@@ -17,16 +17,16 @@
 		60570E5F1D33704400ED6886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60570E5D1D33704400ED6886 /* LaunchScreen.storyboard */; };
 		60570E6A1D33704400ED6886 /* iOS_youbiSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E691D33704400ED6886 /* iOS_youbiSystemTests.m */; };
 		60570E751D33704400ED6886 /* iOS_youbiSystemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E741D33704400ED6886 /* iOS_youbiSystemUITests.m */; };
-		60570E871D3372C900ED6886 /* UserLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E861D3372C900ED6886 /* UserLoginTool.m */; };
-		60570E9F1D3372E200ED6886 /* NSData+NSDataDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E8A1D3372E200ED6886 /* NSData+NSDataDeal.m */; };
-		60570EA01D3372E200ED6886 /* NSDictionary+EXTERN.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E8C1D3372E200ED6886 /* NSDictionary+EXTERN.m */; };
-		60570EA11D3372E200ED6886 /* NSString+EXTERN.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E8E1D3372E200ED6886 /* NSString+EXTERN.m */; };
-		60570EA71D3372E200ED6886 /* UITableView+CJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E9A1D3372E200ED6886 /* UITableView+CJ.m */; };
-		60570EA91D3372E200ED6886 /* UIViewController+NAV.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E9E1D3372E200ED6886 /* UIViewController+NAV.m */; };
-		60570EB31D3379EE00ED6886 /* Base64Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570EAD1D3379EE00ED6886 /* Base64Util.m */; };
-		60570EB41D3379EE00ED6886 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570EAF1D3379EE00ED6886 /* GTMBase64.m */; };
-		60570EB51D3379EE00ED6886 /* MD5Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570EB21D3379EE00ED6886 /* MD5Encryption.m */; };
 		AB28D67BFD02C11ABA97F034 /* libPods-iOS_youbiSystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A865F9043D4DF60454D487 /* libPods-iOS_youbiSystem.a */; };
+		EF5D41531D65A4B4001F374D /* UserLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D413F1D65A4B4001F374D /* UserLoginTool.m */; };
+		EF5D41541D65A4B4001F374D /* Base64Util.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D41421D65A4B4001F374D /* Base64Util.m */; };
+		EF5D41551D65A4B4001F374D /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D41441D65A4B4001F374D /* GTMBase64.m */; };
+		EF5D41561D65A4B4001F374D /* MD5Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D41471D65A4B4001F374D /* MD5Encryption.m */; };
+		EF5D41571D65A4B4001F374D /* NSData+NSDataDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D414A1D65A4B4001F374D /* NSData+NSDataDeal.m */; };
+		EF5D41581D65A4B4001F374D /* NSDictionary+EXTERN.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D414C1D65A4B4001F374D /* NSDictionary+EXTERN.m */; };
+		EF5D41591D65A4B4001F374D /* NSString+EXTERN.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D414E1D65A4B4001F374D /* NSString+EXTERN.m */; };
+		EF5D415A1D65A4B4001F374D /* UITableView+CJ.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D41501D65A4B4001F374D /* UITableView+CJ.m */; };
+		EF5D415B1D65A4B4001F374D /* UIViewController+NAV.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D41521D65A4B4001F374D /* UIViewController+NAV.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,44 +53,44 @@
 		5EDBE6F2EC6D02EFE49AEC31 /* Pods-iOS_youbiSystemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_youbiSystemUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_youbiSystemUITests/Pods-iOS_youbiSystemUITests.release.xcconfig"; sourceTree = "<group>"; };
 		60570E4C1D33704300ED6886 /* iOS_youbiSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_youbiSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60570E501D33704400ED6886 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60570E521D33704400ED6886 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		60570E531D33704400ED6886 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60570E551D33704400ED6886 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		60570E561D33704400ED6886 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60570E521D33704400ED6886 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		60570E531D33704400ED6886 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		60570E551D33704400ED6886 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		60570E561D33704400ED6886 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		60570E591D33704400ED6886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60570E5B1D33704400ED6886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60570E5E1D33704400ED6886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		60570E601D33704400ED6886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60570E601D33704400ED6886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		60570E651D33704400ED6886 /* iOS_youbiSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_youbiSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60570E691D33704400ED6886 /* iOS_youbiSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_youbiSystemTests.m; sourceTree = "<group>"; };
 		60570E6B1D33704400ED6886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60570E701D33704400ED6886 /* iOS_youbiSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_youbiSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60570E741D33704400ED6886 /* iOS_youbiSystemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_youbiSystemUITests.m; sourceTree = "<group>"; };
 		60570E761D33704400ED6886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60570E851D3372C900ED6886 /* UserLoginTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLoginTool.h; sourceTree = "<group>"; };
-		60570E861D3372C900ED6886 /* UserLoginTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLoginTool.m; sourceTree = "<group>"; };
-		60570E891D3372E200ED6886 /* NSData+NSDataDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSDataDeal.h"; sourceTree = "<group>"; };
-		60570E8A1D3372E200ED6886 /* NSData+NSDataDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSDataDeal.m"; sourceTree = "<group>"; };
-		60570E8B1D3372E200ED6886 /* NSDictionary+EXTERN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+EXTERN.h"; sourceTree = "<group>"; };
-		60570E8C1D3372E200ED6886 /* NSDictionary+EXTERN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+EXTERN.m"; sourceTree = "<group>"; };
-		60570E8D1D3372E200ED6886 /* NSString+EXTERN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EXTERN.h"; sourceTree = "<group>"; };
-		60570E8E1D3372E200ED6886 /* NSString+EXTERN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EXTERN.m"; sourceTree = "<group>"; };
-		60570E991D3372E200ED6886 /* UITableView+CJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CJ.h"; sourceTree = "<group>"; };
-		60570E9A1D3372E200ED6886 /* UITableView+CJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CJ.m"; sourceTree = "<group>"; };
-		60570E9D1D3372E200ED6886 /* UIViewController+NAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NAV.h"; sourceTree = "<group>"; };
-		60570E9E1D3372E200ED6886 /* UIViewController+NAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NAV.m"; sourceTree = "<group>"; };
-		60570EAA1D33730600ED6886 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		60570EAC1D3379EE00ED6886 /* Base64Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Util.h; sourceTree = "<group>"; };
-		60570EAD1D3379EE00ED6886 /* Base64Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Util.m; sourceTree = "<group>"; };
-		60570EAE1D3379EE00ED6886 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		60570EAF1D3379EE00ED6886 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		60570EB01D3379EE00ED6886 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		60570EB11D3379EE00ED6886 /* MD5Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Encryption.h; sourceTree = "<group>"; };
-		60570EB21D3379EE00ED6886 /* MD5Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Encryption.m; sourceTree = "<group>"; };
+		60570EAA1D33730600ED6886 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		64896EE0B6B5CB5BEA68338C /* libPods-iOS_youbiSystemTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_youbiSystemTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66ED9CECE1F591F64C792B8C /* Pods-iOS_youbiSystemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_youbiSystemTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_youbiSystemTests/Pods-iOS_youbiSystemTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A1C807CD072BC559462E37F2 /* Pods-iOS_youbiSystemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_youbiSystemUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_youbiSystemUITests/Pods-iOS_youbiSystemUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE60464DC01F28AD9DFBBA21 /* Pods-iOS_youbiSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_youbiSystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_youbiSystem/Pods-iOS_youbiSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		EF5D413E1D65A4B4001F374D /* UserLoginTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLoginTool.h; sourceTree = "<group>"; };
+		EF5D413F1D65A4B4001F374D /* UserLoginTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLoginTool.m; sourceTree = "<group>"; };
+		EF5D41411D65A4B4001F374D /* Base64Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Util.h; sourceTree = "<group>"; };
+		EF5D41421D65A4B4001F374D /* Base64Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Util.m; sourceTree = "<group>"; };
+		EF5D41431D65A4B4001F374D /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		EF5D41441D65A4B4001F374D /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		EF5D41451D65A4B4001F374D /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		EF5D41461D65A4B4001F374D /* MD5Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Encryption.h; sourceTree = "<group>"; };
+		EF5D41471D65A4B4001F374D /* MD5Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Encryption.m; sourceTree = "<group>"; };
+		EF5D41491D65A4B4001F374D /* NSData+NSDataDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSDataDeal.h"; sourceTree = "<group>"; };
+		EF5D414A1D65A4B4001F374D /* NSData+NSDataDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSDataDeal.m"; sourceTree = "<group>"; };
+		EF5D414B1D65A4B4001F374D /* NSDictionary+EXTERN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+EXTERN.h"; sourceTree = "<group>"; };
+		EF5D414C1D65A4B4001F374D /* NSDictionary+EXTERN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+EXTERN.m"; sourceTree = "<group>"; };
+		EF5D414D1D65A4B4001F374D /* NSString+EXTERN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EXTERN.h"; sourceTree = "<group>"; };
+		EF5D414E1D65A4B4001F374D /* NSString+EXTERN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EXTERN.m"; sourceTree = "<group>"; };
+		EF5D414F1D65A4B4001F374D /* UITableView+CJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CJ.h"; sourceTree = "<group>"; };
+		EF5D41501D65A4B4001F374D /* UITableView+CJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CJ.m"; sourceTree = "<group>"; };
+		EF5D41511D65A4B4001F374D /* UIViewController+NAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NAV.h"; sourceTree = "<group>"; };
+		EF5D41521D65A4B4001F374D /* UIViewController+NAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NAV.m"; sourceTree = "<group>"; };
 		F15F9BE785CE2FCDEDFAC57E /* Pods-iOS_youbiSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_youbiSystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_youbiSystem/Pods-iOS_youbiSystem.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,15 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				60570E821D33726D00ED6886 /* Class */,
-				60570E521D33704400ED6886 /* AppDelegate.h */,
-				60570E531D33704400ED6886 /* AppDelegate.m */,
-				60570E551D33704400ED6886 /* ViewController.h */,
-				60570E561D33704400ED6886 /* ViewController.m */,
-				60570E581D33704400ED6886 /* Main.storyboard */,
 				60570E5B1D33704400ED6886 /* Assets.xcassets */,
-				60570E5D1D33704400ED6886 /* LaunchScreen.storyboard */,
-				60570E601D33704400ED6886 /* Info.plist */,
-				60570EAA1D33730600ED6886 /* PrefixHeader.pch */,
 				60570E4F1D33704400ED6886 /* Supporting Files */,
 			);
 			path = iOS_youbiSystem;
@@ -191,59 +183,10 @@
 		60570E821D33726D00ED6886 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				60570E831D33726D00ED6886 /* other */,
+				EF5D413C1D65A4B4001F374D /* Tool */,
+				EF5D413B1D65A353001F374D /* Other */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		60570E831D33726D00ED6886 /* other */ = {
-			isa = PBXGroup;
-			children = (
-				60570EAB1D3379EE00ED6886 /* Encryption */,
-				60570E881D3372E200ED6886 /* 扩展 */,
-				60570E841D3372C900ED6886 /* AFNNetTool */,
-			);
-			path = other;
-			sourceTree = "<group>";
-		};
-		60570E841D3372C900ED6886 /* AFNNetTool */ = {
-			isa = PBXGroup;
-			children = (
-				60570E851D3372C900ED6886 /* UserLoginTool.h */,
-				60570E861D3372C900ED6886 /* UserLoginTool.m */,
-			);
-			path = AFNNetTool;
-			sourceTree = "<group>";
-		};
-		60570E881D3372E200ED6886 /* 扩展 */ = {
-			isa = PBXGroup;
-			children = (
-				60570E891D3372E200ED6886 /* NSData+NSDataDeal.h */,
-				60570E8A1D3372E200ED6886 /* NSData+NSDataDeal.m */,
-				60570E8B1D3372E200ED6886 /* NSDictionary+EXTERN.h */,
-				60570E8C1D3372E200ED6886 /* NSDictionary+EXTERN.m */,
-				60570E8D1D3372E200ED6886 /* NSString+EXTERN.h */,
-				60570E8E1D3372E200ED6886 /* NSString+EXTERN.m */,
-				60570E991D3372E200ED6886 /* UITableView+CJ.h */,
-				60570E9A1D3372E200ED6886 /* UITableView+CJ.m */,
-				60570E9D1D3372E200ED6886 /* UIViewController+NAV.h */,
-				60570E9E1D3372E200ED6886 /* UIViewController+NAV.m */,
-			);
-			path = "扩展";
-			sourceTree = "<group>";
-		};
-		60570EAB1D3379EE00ED6886 /* Encryption */ = {
-			isa = PBXGroup;
-			children = (
-				60570EAC1D3379EE00ED6886 /* Base64Util.h */,
-				60570EAD1D3379EE00ED6886 /* Base64Util.m */,
-				60570EAE1D3379EE00ED6886 /* GTMBase64.h */,
-				60570EAF1D3379EE00ED6886 /* GTMBase64.m */,
-				60570EB01D3379EE00ED6886 /* GTMDefines.h */,
-				60570EB11D3379EE00ED6886 /* MD5Encryption.h */,
-				60570EB21D3379EE00ED6886 /* MD5Encryption.m */,
-			);
-			path = Encryption;
 			sourceTree = "<group>";
 		};
 		B83A657FB6681385236EEF90 /* Pods */ = {
@@ -267,6 +210,71 @@
 				2DE6D7541CC32B4749915120 /* libPods-iOS_youbiSystemUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF5D413B1D65A353001F374D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				60570E5D1D33704400ED6886 /* LaunchScreen.storyboard */,
+				60570E601D33704400ED6886 /* Info.plist */,
+				60570EAA1D33730600ED6886 /* PrefixHeader.pch */,
+				60570E581D33704400ED6886 /* Main.storyboard */,
+				60570E551D33704400ED6886 /* ViewController.h */,
+				60570E561D33704400ED6886 /* ViewController.m */,
+				60570E521D33704400ED6886 /* AppDelegate.h */,
+				60570E531D33704400ED6886 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		EF5D413C1D65A4B4001F374D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D413D1D65A4B4001F374D /* AFNNetTool */,
+				EF5D41401D65A4B4001F374D /* Encryption */,
+				EF5D41481D65A4B4001F374D /* 扩展 */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		EF5D413D1D65A4B4001F374D /* AFNNetTool */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D413E1D65A4B4001F374D /* UserLoginTool.h */,
+				EF5D413F1D65A4B4001F374D /* UserLoginTool.m */,
+			);
+			path = AFNNetTool;
+			sourceTree = "<group>";
+		};
+		EF5D41401D65A4B4001F374D /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D41411D65A4B4001F374D /* Base64Util.h */,
+				EF5D41421D65A4B4001F374D /* Base64Util.m */,
+				EF5D41431D65A4B4001F374D /* GTMBase64.h */,
+				EF5D41441D65A4B4001F374D /* GTMBase64.m */,
+				EF5D41451D65A4B4001F374D /* GTMDefines.h */,
+				EF5D41461D65A4B4001F374D /* MD5Encryption.h */,
+				EF5D41471D65A4B4001F374D /* MD5Encryption.m */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		EF5D41481D65A4B4001F374D /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D41491D65A4B4001F374D /* NSData+NSDataDeal.h */,
+				EF5D414A1D65A4B4001F374D /* NSData+NSDataDeal.m */,
+				EF5D414B1D65A4B4001F374D /* NSDictionary+EXTERN.h */,
+				EF5D414C1D65A4B4001F374D /* NSDictionary+EXTERN.m */,
+				EF5D414D1D65A4B4001F374D /* NSString+EXTERN.h */,
+				EF5D414E1D65A4B4001F374D /* NSString+EXTERN.m */,
+				EF5D414F1D65A4B4001F374D /* UITableView+CJ.h */,
+				EF5D41501D65A4B4001F374D /* UITableView+CJ.m */,
+				EF5D41511D65A4B4001F374D /* UIViewController+NAV.h */,
+				EF5D41521D65A4B4001F374D /* UIViewController+NAV.m */,
+			);
+			path = "扩展";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -530,17 +538,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60570EA71D3372E200ED6886 /* UITableView+CJ.m in Sources */,
-				60570E871D3372C900ED6886 /* UserLoginTool.m in Sources */,
+				EF5D41541D65A4B4001F374D /* Base64Util.m in Sources */,
+				EF5D415A1D65A4B4001F374D /* UITableView+CJ.m in Sources */,
+				EF5D41551D65A4B4001F374D /* GTMBase64.m in Sources */,
+				EF5D41531D65A4B4001F374D /* UserLoginTool.m in Sources */,
+				EF5D41591D65A4B4001F374D /* NSString+EXTERN.m in Sources */,
 				60570E571D33704400ED6886 /* ViewController.m in Sources */,
+				EF5D415B1D65A4B4001F374D /* UIViewController+NAV.m in Sources */,
+				EF5D41581D65A4B4001F374D /* NSDictionary+EXTERN.m in Sources */,
 				60570E541D33704400ED6886 /* AppDelegate.m in Sources */,
-				60570EA91D3372E200ED6886 /* UIViewController+NAV.m in Sources */,
-				60570EB31D3379EE00ED6886 /* Base64Util.m in Sources */,
-				60570E9F1D3372E200ED6886 /* NSData+NSDataDeal.m in Sources */,
-				60570EA01D3372E200ED6886 /* NSDictionary+EXTERN.m in Sources */,
-				60570EB51D3379EE00ED6886 /* MD5Encryption.m in Sources */,
-				60570EB41D3379EE00ED6886 /* GTMBase64.m in Sources */,
-				60570EA11D3372E200ED6886 /* NSString+EXTERN.m in Sources */,
+				EF5D41571D65A4B4001F374D /* NSData+NSDataDeal.m in Sources */,
+				EF5D41561D65A4B4001F374D /* MD5Encryption.m in Sources */,
 				60570E511D33704400ED6886 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +591,7 @@
 				60570E591D33704400ED6886 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		60570E5D1D33704400ED6886 /* LaunchScreen.storyboard */ = {
@@ -591,6 +600,7 @@
 				60570E5E1D33704400ED6886 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
