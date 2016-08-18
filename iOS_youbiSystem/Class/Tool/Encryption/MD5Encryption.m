@@ -4,7 +4,7 @@
 //
 //  Created by WenHao on 12-10-30.
 //  Copyright (c) 2012年 WenHao. All rights reserved.
-//
+//  luohiabp
 
 #import "MD5Encryption.h"
 #import <CommonCrypto/CommonDigest.h>
