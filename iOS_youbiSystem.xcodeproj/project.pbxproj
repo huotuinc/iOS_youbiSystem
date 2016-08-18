@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59DC942F6986B61548F0F7CB /* libPods-iOS_youbiSystemTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64896EE0B6B5CB5BEA68338C /* libPods-iOS_youbiSystemTests.a */; };
+		60460B955E0737245E4F6F26 /* libPods-iOS_youbiSystemUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6D7541CC32B4749915120 /* libPods-iOS_youbiSystemUITests.a */; };
 		60570E511D33704400ED6886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E501D33704400ED6886 /* main.m */; };
 		60570E541D33704400ED6886 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E531D33704400ED6886 /* AppDelegate.m */; };
 		60570E571D33704400ED6886 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E561D33704400ED6886 /* ViewController.m */; };
@@ -15,6 +17,16 @@
 		60570E5F1D33704400ED6886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60570E5D1D33704400ED6886 /* LaunchScreen.storyboard */; };
 		60570E6A1D33704400ED6886 /* iOS_youbiSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E691D33704400ED6886 /* iOS_youbiSystemTests.m */; };
 		60570E751D33704400ED6886 /* iOS_youbiSystemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E741D33704400ED6886 /* iOS_youbiSystemUITests.m */; };
+		60570E871D3372C900ED6886 /* UserLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E861D3372C900ED6886 /* UserLoginTool.m */; };
+		60570E9F1D3372E200ED6886 /* NSData+NSDataDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E8A1D3372E200ED6886 /* NSData+NSDataDeal.m */; };
+		60570EA01D3372E200ED6886 /* NSDictionary+EXTERN.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E8C1D3372E200ED6886 /* NSDictionary+EXTERN.m */; };
+		60570EA11D3372E200ED6886 /* NSString+EXTERN.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E8E1D3372E200ED6886 /* NSString+EXTERN.m */; };
+		60570EA71D3372E200ED6886 /* UITableView+CJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E9A1D3372E200ED6886 /* UITableView+CJ.m */; };
+		60570EA91D3372E200ED6886 /* UIViewController+NAV.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570E9E1D3372E200ED6886 /* UIViewController+NAV.m */; };
+		60570EB31D3379EE00ED6886 /* Base64Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570EAD1D3379EE00ED6886 /* Base64Util.m */; };
+		60570EB41D3379EE00ED6886 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570EAF1D3379EE00ED6886 /* GTMBase64.m */; };
+		60570EB51D3379EE00ED6886 /* MD5Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 60570EB21D3379EE00ED6886 /* MD5Encryption.m */; };
+		AB28D67BFD02C11ABA97F034 /* libPods-iOS_youbiSystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A865F9043D4DF60454D487 /* libPods-iOS_youbiSystem.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		071B07C21BC67D5612CFDCC8 /* Pods-iOS_youbiSystemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_youbiSystemTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_youbiSystemTests/Pods-iOS_youbiSystemTests.release.xcconfig"; sourceTree = "<group>"; };
+		13A865F9043D4DF60454D487 /* libPods-iOS_youbiSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_youbiSystem.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE6D7541CC32B4749915120 /* libPods-iOS_youbiSystemUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_youbiSystemUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDBE6F2EC6D02EFE49AEC31 /* Pods-iOS_youbiSystemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_youbiSystemUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_youbiSystemUITests/Pods-iOS_youbiSystemUITests.release.xcconfig"; sourceTree = "<group>"; };
 		60570E4C1D33704300ED6886 /* iOS_youbiSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_youbiSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60570E501D33704400ED6886 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60570E521D33704400ED6886 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +67,31 @@
 		60570E701D33704400ED6886 /* iOS_youbiSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_youbiSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60570E741D33704400ED6886 /* iOS_youbiSystemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_youbiSystemUITests.m; sourceTree = "<group>"; };
 		60570E761D33704400ED6886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60570E851D3372C900ED6886 /* UserLoginTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLoginTool.h; sourceTree = "<group>"; };
+		60570E861D3372C900ED6886 /* UserLoginTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLoginTool.m; sourceTree = "<group>"; };
+		60570E891D3372E200ED6886 /* NSData+NSDataDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSDataDeal.h"; sourceTree = "<group>"; };
+		60570E8A1D3372E200ED6886 /* NSData+NSDataDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSDataDeal.m"; sourceTree = "<group>"; };
+		60570E8B1D3372E200ED6886 /* NSDictionary+EXTERN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+EXTERN.h"; sourceTree = "<group>"; };
+		60570E8C1D3372E200ED6886 /* NSDictionary+EXTERN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+EXTERN.m"; sourceTree = "<group>"; };
+		60570E8D1D3372E200ED6886 /* NSString+EXTERN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EXTERN.h"; sourceTree = "<group>"; };
+		60570E8E1D3372E200ED6886 /* NSString+EXTERN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EXTERN.m"; sourceTree = "<group>"; };
+		60570E991D3372E200ED6886 /* UITableView+CJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CJ.h"; sourceTree = "<group>"; };
+		60570E9A1D3372E200ED6886 /* UITableView+CJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CJ.m"; sourceTree = "<group>"; };
+		60570E9D1D3372E200ED6886 /* UIViewController+NAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NAV.h"; sourceTree = "<group>"; };
+		60570E9E1D3372E200ED6886 /* UIViewController+NAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NAV.m"; sourceTree = "<group>"; };
+		60570EAA1D33730600ED6886 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		60570EAC1D3379EE00ED6886 /* Base64Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Util.h; sourceTree = "<group>"; };
+		60570EAD1D3379EE00ED6886 /* Base64Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Util.m; sourceTree = "<group>"; };
+		60570EAE1D3379EE00ED6886 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		60570EAF1D3379EE00ED6886 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		60570EB01D3379EE00ED6886 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		60570EB11D3379EE00ED6886 /* MD5Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Encryption.h; sourceTree = "<group>"; };
+		60570EB21D3379EE00ED6886 /* MD5Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Encryption.m; sourceTree = "<group>"; };
+		64896EE0B6B5CB5BEA68338C /* libPods-iOS_youbiSystemTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_youbiSystemTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66ED9CECE1F591F64C792B8C /* Pods-iOS_youbiSystemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_youbiSystemTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_youbiSystemTests/Pods-iOS_youbiSystemTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1C807CD072BC559462E37F2 /* Pods-iOS_youbiSystemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_youbiSystemUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_youbiSystemUITests/Pods-iOS_youbiSystemUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE60464DC01F28AD9DFBBA21 /* Pods-iOS_youbiSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_youbiSystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_youbiSystem/Pods-iOS_youbiSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		F15F9BE785CE2FCDEDFAC57E /* Pods-iOS_youbiSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_youbiSystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_youbiSystem/Pods-iOS_youbiSystem.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB28D67BFD02C11ABA97F034 /* libPods-iOS_youbiSystem.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DC942F6986B61548F0F7CB /* libPods-iOS_youbiSystemTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60460B955E0737245E4F6F26 /* libPods-iOS_youbiSystemUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +129,8 @@
 				60570E681D33704400ED6886 /* iOS_youbiSystemTests */,
 				60570E731D33704400ED6886 /* iOS_youbiSystemUITests */,
 				60570E4D1D33704300ED6886 /* Products */,
+				B83A657FB6681385236EEF90 /* Pods */,
+				ED35653131FD9152D4501C13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +147,7 @@
 		60570E4E1D33704400ED6886 /* iOS_youbiSystem */ = {
 			isa = PBXGroup;
 			children = (
+				60570E821D33726D00ED6886 /* Class */,
 				60570E521D33704400ED6886 /* AppDelegate.h */,
 				60570E531D33704400ED6886 /* AppDelegate.m */,
 				60570E551D33704400ED6886 /* ViewController.h */,
@@ -109,6 +156,7 @@
 				60570E5B1D33704400ED6886 /* Assets.xcassets */,
 				60570E5D1D33704400ED6886 /* LaunchScreen.storyboard */,
 				60570E601D33704400ED6886 /* Info.plist */,
+				60570EAA1D33730600ED6886 /* PrefixHeader.pch */,
 				60570E4F1D33704400ED6886 /* Supporting Files */,
 			);
 			path = iOS_youbiSystem;
@@ -140,6 +188,87 @@
 			path = iOS_youbiSystemUITests;
 			sourceTree = "<group>";
 		};
+		60570E821D33726D00ED6886 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				60570E831D33726D00ED6886 /* other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		60570E831D33726D00ED6886 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				60570EAB1D3379EE00ED6886 /* Encryption */,
+				60570E881D3372E200ED6886 /* 扩展 */,
+				60570E841D3372C900ED6886 /* AFNNetTool */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		60570E841D3372C900ED6886 /* AFNNetTool */ = {
+			isa = PBXGroup;
+			children = (
+				60570E851D3372C900ED6886 /* UserLoginTool.h */,
+				60570E861D3372C900ED6886 /* UserLoginTool.m */,
+			);
+			path = AFNNetTool;
+			sourceTree = "<group>";
+		};
+		60570E881D3372E200ED6886 /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				60570E891D3372E200ED6886 /* NSData+NSDataDeal.h */,
+				60570E8A1D3372E200ED6886 /* NSData+NSDataDeal.m */,
+				60570E8B1D3372E200ED6886 /* NSDictionary+EXTERN.h */,
+				60570E8C1D3372E200ED6886 /* NSDictionary+EXTERN.m */,
+				60570E8D1D3372E200ED6886 /* NSString+EXTERN.h */,
+				60570E8E1D3372E200ED6886 /* NSString+EXTERN.m */,
+				60570E991D3372E200ED6886 /* UITableView+CJ.h */,
+				60570E9A1D3372E200ED6886 /* UITableView+CJ.m */,
+				60570E9D1D3372E200ED6886 /* UIViewController+NAV.h */,
+				60570E9E1D3372E200ED6886 /* UIViewController+NAV.m */,
+			);
+			path = "扩展";
+			sourceTree = "<group>";
+		};
+		60570EAB1D3379EE00ED6886 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				60570EAC1D3379EE00ED6886 /* Base64Util.h */,
+				60570EAD1D3379EE00ED6886 /* Base64Util.m */,
+				60570EAE1D3379EE00ED6886 /* GTMBase64.h */,
+				60570EAF1D3379EE00ED6886 /* GTMBase64.m */,
+				60570EB01D3379EE00ED6886 /* GTMDefines.h */,
+				60570EB11D3379EE00ED6886 /* MD5Encryption.h */,
+				60570EB21D3379EE00ED6886 /* MD5Encryption.m */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		B83A657FB6681385236EEF90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE60464DC01F28AD9DFBBA21 /* Pods-iOS_youbiSystem.debug.xcconfig */,
+				F15F9BE785CE2FCDEDFAC57E /* Pods-iOS_youbiSystem.release.xcconfig */,
+				66ED9CECE1F591F64C792B8C /* Pods-iOS_youbiSystemTests.debug.xcconfig */,
+				071B07C21BC67D5612CFDCC8 /* Pods-iOS_youbiSystemTests.release.xcconfig */,
+				A1C807CD072BC559462E37F2 /* Pods-iOS_youbiSystemUITests.debug.xcconfig */,
+				5EDBE6F2EC6D02EFE49AEC31 /* Pods-iOS_youbiSystemUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED35653131FD9152D4501C13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13A865F9043D4DF60454D487 /* libPods-iOS_youbiSystem.a */,
+				64896EE0B6B5CB5BEA68338C /* libPods-iOS_youbiSystemTests.a */,
+				2DE6D7541CC32B4749915120 /* libPods-iOS_youbiSystemUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60570E791D33704400ED6886 /* Build configuration list for PBXNativeTarget "iOS_youbiSystem" */;
 			buildPhases = (
+				05BCC7619B2617C37509FCFB /* [CP] Check Pods Manifest.lock */,
 				60570E481D33704300ED6886 /* Sources */,
 				60570E491D33704300ED6886 /* Frameworks */,
 				60570E4A1D33704300ED6886 /* Resources */,
+				A156059BB822B9ADF0E57045 /* [CP] Embed Pods Frameworks */,
+				4D08F38CE854F60C1AAC56CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60570E7C1D33704400ED6886 /* Build configuration list for PBXNativeTarget "iOS_youbiSystemTests" */;
 			buildPhases = (
+				F30016BFEFBF59691806E43F /* [CP] Check Pods Manifest.lock */,
 				60570E611D33704400ED6886 /* Sources */,
 				60570E621D33704400ED6886 /* Frameworks */,
 				60570E631D33704400ED6886 /* Resources */,
+				4BF118B9C1598773030BEFD1 /* [CP] Embed Pods Frameworks */,
+				46A85DFBB419A9ABDD5B2034 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +317,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60570E7F1D33704400ED6886 /* Build configuration list for PBXNativeTarget "iOS_youbiSystemUITests" */;
 			buildPhases = (
+				AEDEA6BCAC882AB1C9175FDB /* [CP] Check Pods Manifest.lock */,
 				60570E6C1D33704400ED6886 /* Sources */,
 				60570E6D1D33704400ED6886 /* Frameworks */,
 				60570E6E1D33704400ED6886 /* Resources */,
+				FD71221B1EA3FAD7FFB02879 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,13 +402,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05BCC7619B2617C37509FCFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46A85DFBB419A9ABDD5B2034 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_youbiSystemTests/Pods-iOS_youbiSystemTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BF118B9C1598773030BEFD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_youbiSystemTests/Pods-iOS_youbiSystemTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D08F38CE854F60C1AAC56CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_youbiSystem/Pods-iOS_youbiSystem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A156059BB822B9ADF0E57045 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_youbiSystem/Pods-iOS_youbiSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEDEA6BCAC882AB1C9175FDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F30016BFEFBF59691806E43F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD71221B1EA3FAD7FFB02879 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_youbiSystemUITests/Pods-iOS_youbiSystemUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60570E481D33704300ED6886 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60570EA71D3372E200ED6886 /* UITableView+CJ.m in Sources */,
+				60570E871D3372C900ED6886 /* UserLoginTool.m in Sources */,
 				60570E571D33704400ED6886 /* ViewController.m in Sources */,
 				60570E541D33704400ED6886 /* AppDelegate.m in Sources */,
+				60570EA91D3372E200ED6886 /* UIViewController+NAV.m in Sources */,
+				60570EB31D3379EE00ED6886 /* Base64Util.m in Sources */,
+				60570E9F1D3372E200ED6886 /* NSData+NSDataDeal.m in Sources */,
+				60570EA01D3372E200ED6886 /* NSDictionary+EXTERN.m in Sources */,
+				60570EB51D3379EE00ED6886 /* MD5Encryption.m in Sources */,
+				60570EB41D3379EE00ED6886 /* GTMBase64.m in Sources */,
+				60570EA11D3372E200ED6886 /* NSString+EXTERN.m in Sources */,
 				60570E511D33704400ED6886 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,8 +680,11 @@
 		};
 		60570E7A1D33704400ED6886 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE60464DC01F28AD9DFBBA21 /* Pods-iOS_youbiSystem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOS_youbiSystem/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS_youbiSystem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "huotu.iOS-youbiSystem";
@@ -422,8 +694,11 @@
 		};
 		60570E7B1D33704400ED6886 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15F9BE785CE2FCDEDFAC57E /* Pods-iOS_youbiSystem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOS_youbiSystem/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS_youbiSystem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "huotu.iOS-youbiSystem";
@@ -433,6 +708,7 @@
 		};
 		60570E7D1D33704400ED6886 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66ED9CECE1F591F64C792B8C /* Pods-iOS_youbiSystemTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = iOS_youbiSystemTests/Info.plist;
@@ -445,6 +721,7 @@
 		};
 		60570E7E1D33704400ED6886 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 071B07C21BC67D5612CFDCC8 /* Pods-iOS_youbiSystemTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = iOS_youbiSystemTests/Info.plist;
@@ -457,6 +734,7 @@
 		};
 		60570E801D33704400ED6886 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C807CD072BC559462E37F2 /* Pods-iOS_youbiSystemUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iOS_youbiSystemUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -468,6 +746,7 @@
 		};
 		60570E811D33704400ED6886 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EDBE6F2EC6D02EFE49AEC31 /* Pods-iOS_youbiSystemUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iOS_youbiSystemUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
